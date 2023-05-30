@@ -1,0 +1,11 @@
+[0;1;32m●[0m kibana.service - Kibana
+     Loaded: loaded (/lib/systemd/system/kibana.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sat 2023-05-06 00:08:49 UTC; 3s ago
+       Docs: https://www.elastic.co
+   Main PID: 14735 (node)
+      Tasks: 7 (limit: 7058)
+     Memory: 76.4M
+     CGroup: /system.slice/kibana.service
+             └─14735 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli/dist
+
+May 06 00:08:49 ubuntu-server systemd[1]: Started Kibana.
